@@ -15,12 +15,7 @@ public class PalindromeChecker {
         }
     }
 
-    public static String transformInput(String input) {
-        input = input.toLowerCase();
-        input = input.replace(",", "");
-        input = input.replace("!", "");
-        return input;
-    }
+
 
     public static boolean checkPalindrome(String input) {
         String reversed = reverseString(input);
