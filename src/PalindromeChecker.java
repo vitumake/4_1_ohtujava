@@ -1,7 +1,6 @@
+import java.util.Scanner;
 public class PalindromeChecker {
 
-
-    
     public static String transformInput(String input) {
         input = input.toLowerCase();
         input = input.replace(",", "");
