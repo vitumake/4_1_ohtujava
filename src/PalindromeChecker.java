@@ -1,4 +1,3 @@
-import java.util.Scanner;
 public class PalindromeChecker {
 
     public static String transformInput(String input) {
@@ -20,7 +19,7 @@ public class PalindromeChecker {
     public static String reverseString(String input) {
         StringBuilder reversed = new StringBuilder();
         for (int i = input.length() - 1; i >= 0; i--) {
-            reversed.append(input.charAt(i));
+            reversed.append(input.charAt(i);
         }
         return reversed.toString();
     }
@@ -38,6 +37,6 @@ public class PalindromeChecker {
             System.out.println("The transformed input is not a palindrome.");
         }
 
-        scanner.close();
+
     }
 }
