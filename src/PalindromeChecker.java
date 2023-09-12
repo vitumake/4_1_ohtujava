@@ -1,11 +1,8 @@
 import java.util.Scanner;
-
-
 public class PalindromeChecker {
-
-    public static void main(String[] args) {
+    public static void main(String[] args) { //main function XD
         
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); //scanneri XD
         String input = scanner.nextLine();
         
         String transformed = transformInput(input);
